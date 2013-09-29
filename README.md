@@ -58,6 +58,7 @@ Jaslider.js es un plugin para jQuery slider, este plugin puede tener una galerí
 Testeado en: IE8, Chrome 29.0.1547.76 y Mozilla Firefox; Usando jquery-1.9
 
 ## ¿Cómo funciona?
+
 1 - Incluir archivo jquery y Jaslider.js plugin y hoja de estilo css llamado "Jastyles.css"
 
 2 - Crear un div con id Ejemplo:
@@ -69,9 +70,9 @@ Testeado en: IE8, Chrome 29.0.1547.76 y Mozilla Firefox; Usando jquery-1.9
 
 4 - A continuación, una instancia del plugin con javascript
 `````javascript
-$ ("# gallery"). JaGallery ({
-         altura: 300,
-         anchura: 500,
+$ ("#gallery").JaGallery({
+         height: 300,
+         width: 500,
          sliderTime: 1200
 });
 `````
@@ -82,7 +83,7 @@ $ ("# gallery"). JaGallery ({
 
 1 - Crear y setear en "true" el elemento "thumbs" del objeto 
 `````javascript
-$("galería #").JaGallery({thumbs: true});
+$("#galería").JaGallery({ thumbs: true });
 `````
 
 2 - Crear un div con id = "thumbnails" y añadirle una lista ``` <ul> ``` de la misma forma que hicimos antes Por ejemplo:
