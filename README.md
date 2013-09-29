@@ -1,7 +1,7 @@
 Jaslider
 ========
 
-English redaction
+#English redaction
 
 
 Jaslider.js is an slider plugin for jquery , this plugin can have an gallery with thumbnails or not to animate the images.
