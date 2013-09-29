@@ -3,6 +3,7 @@ Jaslider
 
 English redaction
 
+
 Jaslider.js is an slider plugin for jquery , this plugin can have an gallery with thumbnails or not to animate the images.
 
 Tested with: IE8+ , Chrome 29.0.1547.76 and Mozillla Firefox; Using jquery-1.9
@@ -23,7 +24,9 @@ $("#gallery").JaGallery( {
 
 5- Ready !
 
-For use of thumbnails  
+
+## For use of thumbnails  
+
 1- Set at "true" the element thumbs
  $("#gallery").JaGallery( { thumbs:true } );
 
@@ -31,7 +34,8 @@ For use of thumbnails
 
 3- Ready!
 
-Examples Folder:
+
+## Examples Folder:
 There are two .html files with examples.
 
 example1.html (Simple slider without thumbnails images)
@@ -40,8 +44,10 @@ example2.html (Slider Gallery with thumbnails images)
 
 ---------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------
+=========
 
-Redaccion en Español
+## Redaccion en Español
+
 
 Jaslider.js es un plugin para jQuery slider, este plugin puede tener una galería con imágenes en miniatura o no animar las imágenes.
 
@@ -65,7 +71,7 @@ $ ("# gallery"). JaGallery ({
 5 - Listo!
 
 
-Para el uso de imágenes en miniatura
+## Para el uso de imágenes en miniatura
 
 1 - Crear y setear en "true" el elemento "thumbs" del objecto
 $("galería #").JaGallery({thumbs: true});
@@ -86,7 +92,7 @@ Por ejemplo:
 
 3 - Listo!
 
-Carpeta Ejemplos:
+## Carpeta Ejemplos:
 Hay 2 archivos .HTML con ejemplos.
 
 example1.html (slider simple sin imágenes miniatura)
