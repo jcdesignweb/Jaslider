@@ -78,11 +78,8 @@ $ ("# gallery"). JaGallery ({
 1 - Crear y setear en "true" el elemento "thumbs" del objeto 
 $("galería #").JaGallery({thumbs: true});
 
-2 - Crear un div con id = "thumbnails" y añadirle una lista <ul> de la misma forma que hicimos antes
-Por ejemplo:
+2 - Crear un div con id = "thumbnails" y añadirle una lista ```html <ul> ``` de la misma forma que hicimos antes Por ejemplo:
 ```html
-<code>
-<pre>
 <div id="thumbnails">
   <ul>
     <li><img src="images/1.jpg" /></li>
@@ -94,8 +91,7 @@ Por ejemplo:
 
   </ul>
 </div>
-</pre>
-</code>
+
 ```
 3 - Listo!
 
