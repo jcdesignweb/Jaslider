@@ -8,7 +8,7 @@ Jaslider.js is an slider plugin for jquery , this plugin can have an gallery wit
 
 Tested with: IE8+ , Chrome 29.0.1547.76 and Mozillla Firefox; Using jquery-1.9
 
-How work?
+## How work?
 1- Include jquery file and plugin Jaslider.js  and css stylesheet called "Jastyles.css"
 
 2- Create an div with id E.g : <div id="gallery"></div>
