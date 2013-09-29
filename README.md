@@ -57,7 +57,9 @@ Testeado en: IE8, Chrome 29.0.1547.76 y Mozilla Firefox; Usando jquery-1.9
 1 - Incluir archivo jquery y Jaslider.js plugin y hoja de estilo css llamado "Jastyles.css"
 
 2 - Crear un div con id Ejemplo:
+```html
 <div id="gallery"></div>
+```
 
 3 - Crear una lista de elementos en la galería div y poner las imágenes en los elementos <li><img src = "images_path ..." /></li>
 
@@ -73,7 +75,7 @@ $ ("# gallery"). JaGallery ({
 
 ## Para el uso de imágenes en miniatura
 
-1 - Crear y setear en "true" el elemento "thumbs" del objecto
+1 - Crear y setear en "true" el elemento "thumbs" del objeto 
 $("galería #").JaGallery({thumbs: true});
 
 2 - Crear un div con id = "thumbnails" y añadirle una lista <ul> de la misma forma que hicimos antes
