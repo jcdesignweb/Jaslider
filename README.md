@@ -48,7 +48,7 @@ example1.html (Simple slider without thumbnails images)
 example2.html (Slider Gallery with thumbnails images)
 
 
-
+=========
 =========
 
 # Redacción en Español
