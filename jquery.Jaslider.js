@@ -141,6 +141,8 @@
         }else{
             showrows("#rowl");
         }
+        
+        
         $( "#gallery #images ul" ).animate({
             right: gallery_right
         
@@ -174,6 +176,11 @@
                 
                 tionRightThumb = sum + "px";
                 //$("#thumbnails ul li, #thumbnails ul li img").css({"width":thumb_width});
+                
+                $(this).append('<div class="rowthumb" id="thumb_rowl"></div>');   
+                $(this).append('<div class="rowthumb" id="thumb_rowr"></div> ');
+            
+            
             }
             
             methods.init(options, this);
@@ -192,11 +199,12 @@
             
             // slide animate when thumb is pressed.
             this.delegate("#thumbnails ul li", "click", function() {
-                var pos = $(this).data("thumb");
+                //var pos = $(this).data("thumb");
+                var pos = ($(this).index() + 1);
                 
                 gallery_right = ((pos * opt.width) - opt.width);
                 
-                animategallery();
+                animating();
             });
             
         },

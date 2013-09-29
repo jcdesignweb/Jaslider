@@ -76,11 +76,12 @@
      <script type="text/javascript" src="jquery.easing.1.3.js"></script>
      
      <script type="text/javascript">
+        
         $(document).ready(function() {
             $("#gallery").JaGallery( {
                             height: 300,
                             width: 500,
-                            thumbs:true,
+                            thumbs:false,
                             infinite: false,
                             easing:'easeOutQuad',
                             sliderTime: 1200
@@ -107,18 +108,15 @@
             
             <div id="thumbnails">
                 <ul>
-                    <li data-thumb="1"><img src="images/1.jpg" /></li>
-                    <li data-thumb="2"><img src="images/2.jpg" /></li>
-                    <li data-thumb="3"><img src="images/3.jpeg" /></li>
-                    <li data-thumb="4"><img src="images/4.jpeg" /></li>
-                    <li data-thumb="5"><img src="images/5.jpg" /></li>
-                    <li data-thumb="6"><img src="images/6.jpg" /></li>
-                    <li data-thumb="7"><img src="images/2.jpg" /></li>
+                    <li><img src="images/1.jpg" /></li>
+                    <li><img src="images/2.jpg" /></li>
+                    <li><img src="images/3.jpeg" /></li>
+                    <li><img src="images/4.jpeg" /></li>
+                    <li><img src="images/5.jpg" /></li>
+                    <li><img src="images/6.jpg" /></li>
+                    <li><img src="images/2.jpg" /></li>
                 </ul>
-    
             </div>
-            <div class="rowthumb" id="thumb_rowl"></div>
-            <div class="rowthumb" id="thumb_rowr"></div> 
             
         </div>
     </div>
