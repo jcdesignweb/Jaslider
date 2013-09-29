@@ -78,6 +78,7 @@ $("galería #").JaGallery({thumbs: true});
 
 2 - Crear un div con id = "thumbnails" y añadirle una lista <ul> de la misma forma que hicimos antes
 Por ejemplo:
+```html
 <code>
 <pre>
 <div id="thumbnails">
@@ -93,6 +94,7 @@ Por ejemplo:
 </div>
 </pre>
 </code>
+```
 3 - Listo!
 
 ## Carpeta Ejemplos:
