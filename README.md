@@ -35,7 +35,7 @@ $("#gallery").JaGallery( {
  $("#gallery").JaGallery( { thumbs:true } );
  `````
 
-2- Add ``` <ul> ``` list in the file and set as id="thumbnails" 
+2 - Create a div with id = "thumbnails" and add a list ```<ul>``` the same way we did before, for example:
 
 3- Ready!
 
