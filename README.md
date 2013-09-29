@@ -11,16 +11,19 @@ Tested with: IE8+ , Chrome 29.0.1547.76 and Mozillla Firefox; Using jquery-1.9
 ## How work?
 1- Include jquery file and plugin Jaslider.js  and css stylesheet called "Jastyles.css"
 
-2- Create an div with id E.g : <div id="gallery"></div>
+2- Create an div with id E.g : ``` <div id="gallery"></div>``` 
 
-3- Create an elements list on gallery div and put the images on <li><img src="images_path..." /></li>
+3- Create an elements list on gallery div and put the images on ``` <li><img src="images_path..." /></li>``` 
 
 4- Then instantiate the plugin with javascript
+
+`````javascript
 $("#gallery").JaGallery( {
          height: 300, 
          width: 500,
          sliderTime: 1200
 });
+`````
 
 5- Ready !
 
@@ -60,22 +63,25 @@ Testeado en: IE8, Chrome 29.0.1547.76 y Mozilla Firefox; Usando jquery-1.9
 <div id="gallery"></div>
 ```
 
-3 - Crear una lista de elementos en la galería div y poner las imágenes en los elementos <li><img src = "images_path ..." /></li>
+3 - Crear una lista de elementos en la galería div y poner las imágenes en los elementos ``` <li><img src = "images_path ..." /></li>``` 
 
 4 - A continuación, una instancia del plugin con javascript
+`````javascript
 $ ("# gallery"). JaGallery ({
           altura: 300,
           anchura: 500,
           sliderTime: 1200
 });
-
+`````
 5 - Listo!
 
 
 ## Para el uso de imágenes en miniatura
 
 1 - Crear y setear en "true" el elemento "thumbs" del objeto 
+`````javascript
 $("galería #").JaGallery({thumbs: true});
+`````
 
 2 - Crear un div con id = "thumbnails" y añadirle una lista ``` <ul> ``` de la misma forma que hicimos antes Por ejemplo:
 ```
