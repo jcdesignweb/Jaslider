@@ -36,6 +36,20 @@ $("#gallery").JaGallery( {
  `````
 
 2 - Create a div with id = "thumbnails" and add a list ```<ul>``` the same way we did before, for example:
+```html
+<div id="thumbnails">
+  <ul>
+    <li><img src="images/1.jpg" /></li>
+    <li><img src="images/2.jpg" /></li>
+    <li><img src="images/3.jpeg" /></li>
+    <li><img src="images/4.jpeg" /></li>
+    <li><img src="images/5.jpg" /></li>
+    <li><img src="images/6.jpg" /></li>
+
+  </ul>
+</div>
+
+```
 
 3- Ready!
 
