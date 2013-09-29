@@ -35,15 +35,14 @@ $("#gallery").JaGallery( {
 3- Ready!
 
 
-## Examples Folder:
+# Examples Folder:
 There are two .html files with examples.
 
 example1.html (Simple slider without thumbnails images)
 example2.html (Slider Gallery with thumbnails images)
 
 
----------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------
+
 =========
 
 ## Redaccion en Español
