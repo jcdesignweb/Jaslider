@@ -31,7 +31,9 @@ $("#gallery").JaGallery( {
 ## For use of thumbnails  
 
 1- Set at "true" the element thumbs
+`````javascript
  $("#gallery").JaGallery( { thumbs:true } );
+ `````
 
 2- Add ``` <ul> ``` list in the file and set as id="thumbnails" 
 
@@ -68,9 +70,9 @@ Testeado en: IE8, Chrome 29.0.1547.76 y Mozilla Firefox; Usando jquery-1.9
 4 - A continuación, una instancia del plugin con javascript
 `````javascript
 $ ("# gallery"). JaGallery ({
-          altura: 300,
-          anchura: 500,
-          sliderTime: 1200
+         altura: 300,
+         anchura: 500,
+         sliderTime: 1200
 });
 `````
 5 - Listo!
