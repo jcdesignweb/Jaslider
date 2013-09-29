@@ -44,6 +44,7 @@ $("#gallery").JaGallery( {
 There are two .html files with examples.
 
 example1.html (Simple slider without thumbnails images)
+
 example2.html (Slider Gallery with thumbnails images)
 
 
@@ -107,6 +108,7 @@ $("#galería").JaGallery({ thumbs: true });
 Hay 2 archivos .HTML con ejemplos.
 
 example1.html (slider simple sin imágenes miniatura)
+
 example2.html (galería deslizante con miniaturas de imágenes)
 
 
