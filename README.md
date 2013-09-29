@@ -107,6 +107,7 @@ $("#galería").JaGallery({ thumbs: true });
 Hay 2 archivos .HTML con ejemplos.
 
 example1.html (slider simple sin imágenes miniatura)
+
 example2.html (galería deslizante con miniaturas de imágenes)
 
 
