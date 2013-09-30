@@ -83,7 +83,7 @@ Testeado en: IE8, Chrome 29.0.1547.76 y Mozilla Firefox; Usando jquery-1.9
 
 3 - Crear una lista de elementos en la galería div y poner las imágenes en los elementos ``` <li><img src = "images_path ..." /></li>``` 
 
-4 - A continuación, una instancia del plugin con javascript
+4 - Luego, instanciar el plugin dentro del document ready asi:
 `````javascript
 $ ("#gallery").JaGallery({
          height: 300,
